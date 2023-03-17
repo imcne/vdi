@@ -16,5 +16,5 @@ $filename  = $hostName + $loginTime.ToBinary() + ".csv"
 
 # export data to file
 
-$hostname + ',' + $loginTime.ToString() + ',' + 'login'|Out-File -FilePath \\app1.cj.com\db\$filename
+$hostname + ',' + $loginTime.ToString() + ',' + 'login'|Out-File -FilePath \\UNCPATH\db\$filename
 
